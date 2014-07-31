@@ -1,7 +1,10 @@
 Drupal-Shellscripts
 ===================
 
-All Shellscripts related to Drupal Development.
+Drush is needed https://github.com/drush-ops/drush/ for executing the script.
+
+The script downloads all needed files according to the drush make file and installs the site.
+After the installation important modules are enabled.
 
 
 1. Generate a Drush Make File or create one yourself. (For generating : http://drushmake.me/)
