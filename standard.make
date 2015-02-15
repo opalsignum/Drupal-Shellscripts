@@ -27,7 +27,7 @@ api = 2
 ; install profiles *should not* include a core project.
   
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.31
+projects[drupal][version] = 7.34
 
   
   
@@ -39,7 +39,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[module_filter][version] = 2.0-alpha2
 projects[module_filter][type] = "module"
 projects[module_filter][subdir] = "contrib"
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.6
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 projects[date][version] = 2.8
@@ -54,7 +54,7 @@ projects[features][subdir] = "contrib"
 projects[email][version] = 1.3
 projects[email][type] = "module"
 projects[email][subdir] = "contrib"
-projects[link][version] = 1.2
+projects[link][version] = 1.3
 projects[link][type] = "module"
 projects[link][subdir] = "contrib"
 projects[imce][version] = 1.9
@@ -69,7 +69,7 @@ projects[captcha][subdir] = "contrib"
 projects[cck][version] = 3.0-alpha3
 projects[cck][type] = "module"
 projects[cck][subdir] = "contrib"
-projects[ds][version] = 2.6
+projects[ds][version] = 2.7
 projects[ds][type] = "module"
 projects[ds][subdir] = "contrib"
 projects[entity][version] = 1.5
@@ -81,10 +81,13 @@ projects[entityreference][subdir] = "contrib"
 projects[html5_tools][version] = 1.2
 projects[html5_tools][type] = "module"
 projects[html5_tools][subdir] = "contrib"
+projects[jquery_update][version] = 2.5
+projects[jquery_update][type] = "module"
+projects[jquery_update][subdir] = "contrib"
 projects[jquery_ui][version] = 1.x-dev
 projects[jquery_ui][type] = "module"
 projects[jquery_ui][subdir] = "contrib"
-projects[menu_block][version] = 2.4
+projects[menu_block][version] = 2.5
 projects[menu_block][type] = "module"
 projects[menu_block][subdir] = "contrib"
 projects[menu_breadcrumb][version] = 1.5
@@ -120,7 +123,7 @@ projects[ckeditor][subdir] = "contrib"
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][type] = "module"
 projects[wysiwyg][subdir] = "contrib"
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 projects[views_slideshow][version] = 3.1
